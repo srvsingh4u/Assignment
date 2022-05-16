@@ -36,7 +36,7 @@ commonBtn.addEventListener("click", async function () {
 });
 
 sportsBtn.addEventListener("click", async function () {
-  del();
+  
   category.textContent = "Sports News";
   const res = await axios.get(
     `https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=${apiKey}`
@@ -87,7 +87,4 @@ const printData = (d) => {
   });
 };
 
-const del = function () {
-  let a = document.body;
-  para.innerText = " ";
-};
+
