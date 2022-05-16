@@ -4,7 +4,7 @@ const cut = document.querySelector(".close");
 
 icon.addEventListener("click", function () {
   popup.style.display = "flex";
-  overlay.classList.remove("hidden");
+ 
 });
 
 cut.addEventListener("click", function () {
